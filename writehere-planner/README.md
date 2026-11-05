@@ -1,6 +1,6 @@
 # WriteHERE Recursive Planner Engine
 
-This is a standalone, generic Recursive DAG Agentic framework extracted from the [WriteHERE](https://github.com/microsoft/WriteHERE) project.
+This is a standalone, generic Recursive DAG Agentic framework extracted from the [WriteHERE](https://github.com/principia-ai/WriteHERE) project.
 
 ## Overview
 The framework executes a nested Directed Acyclic Graph (DAG) of tasks. The engine was originally designed to perform deep recursive planning for report and story generation, but it has been stripped of writing-specific hardcoded logic so it can be applied to **any domain** (e.g. software development, data analysis).

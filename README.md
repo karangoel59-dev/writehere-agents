@@ -2,7 +2,9 @@
 
 **Live Service URL:** [https://agents-6n0t.onrender.com/](https://agents-6n0t.onrender.com/)
 
-This project is an asynchronous REST API built around the [WriteHERE Recursive DAG Agentic Framework](./writehere-planner/README.md). It leverages Large Language Models (LLMs) to automatically break down high-level prompts into structured, multi-step sub-tasks (like chapters or report sections) and sequentially executes them.
+This project is an asynchronous REST API built around the [WriteHERE Recursive DAG Agentic Framework](./writehere-planner/README.md).
+
+> **Attribution:** the recursive DAG engine in [`writehere-planner/`](./writehere-planner/) is extracted from the open-source [WriteHERE](https://github.com/principia-ai/WriteHERE) project by principia-ai, released under the MIT License. This repository adds the Flask API (`main.py`), the LLM planner (`planners/`) and the LLM executor (`executors/`). See [NOTICE.md](./NOTICE.md). It leverages Large Language Models (LLMs) to automatically break down high-level prompts into structured, multi-step sub-tasks (like chapters or report sections) and sequentially executes them.
 
 The API provides endpoints to trigger long-form **Story** or **Report** generation tasks in the background, and a polling endpoint to check their real-time execution status.
 
